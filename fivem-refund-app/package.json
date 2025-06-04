@@ -1,0 +1,32 @@
+{
+  "name": "fivem-refund-app",
+  "version": "1.0.0",
+  "description": "A web application for managing refunds linked to FiveM player identifiers with Discord OAuth2 integration.",
+  "main": "src/server/app.ts",
+  "scripts": {
+    "start": "ts-node src/server/app.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev src/server/app.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "mysql2": "^2.2.5",
+    "passport": "^0.4.1",
+    "passport-discord": "^0.1.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.0.0"
+  },
+  "keywords": [
+    "FiveM",
+    "Discord",
+    "OAuth2",
+    "refunds"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
